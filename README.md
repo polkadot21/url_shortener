@@ -32,3 +32,10 @@ docker compose up --build
     Returns: Shortened URL
 - `GET /{short_url}`: Redirects to the original URL using the shortened link.
 - `GET /health`: Checks the DB connection.
+
+
+## ToDos:
+
+- add static analyzers (`mypy`);
+- add linters (`black`);
+- add github workflows to check the docker image, linting and automate environments.
